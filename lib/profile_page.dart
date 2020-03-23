@@ -182,7 +182,7 @@ class ProfileInfo extends StatelessWidget {
 //            borderRadius: BorderRadius.circular(40),
           shape: BoxShape.circle,
           image: DecorationImage(
-            image: AssetImage("ha.jpg"),
+            image: AssetImage("image/ha.jpg"),
             alignment: Alignment.center,
             fit: BoxFit.cover,
           ),
