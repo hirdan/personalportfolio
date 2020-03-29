@@ -220,34 +220,34 @@ class ProfileInfo extends StatelessWidget {
       SizedBox(
         height: 20,
       ),
-      Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: <Widget>[
-          RaisedButton(
-            shape: StadiumBorder(),
-            child: Text("Resume"),
-            color: Colors.red,
-            onPressed: () {
-              html.window
-                  .open("https://sites.google.com/view/hirdan/resume", "Resume");
-            },
-            padding: EdgeInsets.all(10),
-          ),
-          SizedBox(
-            width: 20,
-          ),
-          RaisedButton(
-            shape: StadiumBorder(),
-            child: Text("Say Hi!"),
-            color: Colors.red,
-            onPressed: () {
-              html.window
-                  .open("https://instagram.com/hirdan24", "Hirdan");
-            },
-            padding: EdgeInsets.all(10),
-          )
-        ],
-      )
+      // Row(
+      //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //   children: <Widget>[
+      //     RaisedButton(
+      //       shape: StadiumBorder(),
+      //       child: Text("Resume"),
+      //       color: Colors.red,
+      //       onPressed: () {
+      //         html.window
+      //             .open("https://sites.google.com/view/hirdan/resume", "Resume");
+      //       },
+      //       padding: EdgeInsets.all(10),
+      //     ),
+      //     SizedBox(
+      //       width: 20,
+      //     ),
+      //     RaisedButton(
+      //       shape: StadiumBorder(),
+      //       child: Text("Say Hi!"),
+      //       color: Colors.red,
+      //       onPressed: () {
+      //         html.window
+      //             .open("https://instagram.com/hirdan24", "Hirdan");
+      //       },
+      //       padding: EdgeInsets.all(10),
+      //     )
+      //   ],
+      // )
     ],
   );
 
@@ -284,21 +284,21 @@ class SocialInfo extends StatelessWidget {
         },
         color: Colors.blue,
       ),
-      OutlineButton(
-        child: Text('Instagram'),
-        onPressed: () {
-          html.window.open("https://instagram.com/hirdan24", "Instagram");
-        },
-        color: Colors.blue,
-      ),
-      OutlineButton(
-        child: Text('Facebook'),
-        onPressed: () {
-          html.window
-              .open("https://www.facebook.com/hirdan.aggarwal.1", "Facebook");
-        },
-        color: Colors.blue,
-      ),
+      // OutlineButton(
+      //   child: Text('Instagram'),
+      //   onPressed: () {
+      //     html.window.open("https://instagram.com/hirdan24", "Instagram");
+      //   },
+      //   color: Colors.blue,
+      // ),
+      // OutlineButton(
+      //   child: Text('Facebook'),
+      //   onPressed: () {
+      //     html.window
+      //         .open("https://www.facebook.com/hirdan.aggarwal.1", "Facebook");
+      //   },
+      //   color: Colors.blue,
+      // ),
     ];
   }
 
